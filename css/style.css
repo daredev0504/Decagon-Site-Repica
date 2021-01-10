@@ -655,16 +655,12 @@ body {
     width: 400px;
     position: relative;
 }
-/*.section-media .media-flex-container .news-card__details {
-    position: absolute;
-    bottom: -3rem;
-    padding: 0 2.4rem 0 3.2rem;
-}
-@media only screen and (min-width: 768px) {
-    .section-media .media-flex-container .news-card__details {
-        padding: 0 1.8rem 0 3rem;
+
+@media only screen and (max-width: 768px) {
+    .media-flex-container .news-card{
+        margin-bottom:4rem;
     }
-}*/
+}
 .news-card h4{
     font-weight: 600;
     font-size: 1.8rem;
