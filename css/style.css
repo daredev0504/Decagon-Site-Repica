@@ -737,6 +737,12 @@ body {
     justify-content: space-between;
     gap: 8rem;
 }
+@media only screen and (max-width: 768px) {
+    .footer-section .footer-flex-item2{
+        display: block;
+    }
+}
+
 .footer {
     padding-top: 6rem;
     padding-bottom: 6rem;
