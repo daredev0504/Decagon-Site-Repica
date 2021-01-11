@@ -202,6 +202,8 @@ body {
     flex-wrap: wrap;
 }
 
+
+
 @media only screen and (min-width: 1024px) {
     .our-partners{
         padding: 0;
@@ -241,9 +243,17 @@ body {
 .why-image img{
     height: 500px;
 }
+
+@media only screen and (max-width: 768px) {
+    .why-image img{
+        height: 400px;
+    }
+}
+
 .why-flex-container{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-around;
     gap: 7rem;
 }
@@ -257,7 +267,7 @@ body {
 
 
 @media only screen and (max-width: 768px) {
-    .section-why .why-flex-container{
+    .why-flex-container,.why-flex-mini-container{
         display: block;
         font-size: 2.4rem;
         line-height: 3rem;
