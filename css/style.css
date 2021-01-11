@@ -54,9 +54,7 @@ body {
     margin-left: 15px;
 }
 
-.nav-link,
-.nav-link:link,
-.nav-link:visited {
+.nav-link {
     text-decoration: none;
     padding: 0;
     font-weight: normal;
@@ -64,9 +62,7 @@ body {
     line-height: 1.8rem;
     color: #ffffff;
 }
-.navigation a.nav-btn,
-.navigation a.nav-btn:link,
-.navigation a.nav-btn:visited {
+.navigation a.nav-btn {
     font-weight: normal;
     font-size: 1.2rem;
     line-height: 1.5rem;
@@ -146,9 +142,7 @@ body {
         padding-bottom: 8.5rem;
     }
 
-.heading-btn,
-.heading-btn:link,
-.heading-btn:visited {
+.heading-btn {
     position: relative;
     background-image: linear-gradient(96.67deg, #34a853 0%, #b4d245 100%);
     font-weight: bold;
@@ -162,9 +156,7 @@ body {
     text-decoration: none;
 }
 @media only screen and (min-width: 768px) {
-    .heading-btn,
-    .heading-btn:link,
-    .heading-btn:visited {
+    .heading-btn{
         padding: 2.2rem 6.6rem;
     }
 }
@@ -514,9 +506,7 @@ body {
 .card6-ln{
     margin-top: 23rem;
 }
-.leader--card__linkedin a,
-.leader--card__linkedin a:link,
-.leader--card__linkedin a:visited {
+.leader--card__linkedin a{
     text-decoration: none;
     font-weight: normal;
     font-size: 1.5rem;
@@ -524,9 +514,7 @@ body {
     color: #2c3134;
 }
 @media only screen and (min-width: 768px) {
-    .leader--card__linkedin a,
-    .leader--card__linkedin a:link,
-    .leader--card__linkedin a:visited {
+    .leader--card__linkedin a {
         font-size: 2rem;
         line-height: 2.5rem;
     }
@@ -764,9 +752,7 @@ body {
         margin-bottom: 8rem;
     }
 }
-.footer .build-team .footer-btn,
-.footer .build-team .footer-btn:link,
-.footer .build-team .footer-btn:visited {
+.footer .build-team .footer-btn{
     position: relative;
     background-image: linear-gradient(96.67deg, #34a853 0%, #b4d245 100%);
     font-weight: bold;
@@ -780,9 +766,7 @@ body {
     text-decoration: none;
 }
 @media only screen and (min-width: 768px) {
-    .footer .build-team .footer-btn,
-    .footer .build-team .footer-btn:link,
-    .footer .build-team .footer-btn:visited {
+    .footer .build-team .footer-btn {
         padding: 2.2rem 6.6rem;
     }
 }
