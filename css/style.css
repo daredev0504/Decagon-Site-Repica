@@ -244,19 +244,14 @@ body {
     height: 500px;
 }
 
-@media only screen and (max-width: 768px) {
-    .why-image img{
-        height: 400px;
-    }
-}
 
 .why-flex-container{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: space-around;
     gap: 7rem;
 }
+
 .why-flex-mini-container{
     display: flex;
     justify-content:space-around;
@@ -264,16 +259,12 @@ body {
     gap:7rem;
 
 }
-
-
 @media only screen and (max-width: 768px) {
-    .why-flex-container,.why-flex-mini-container{
-        display: block;
-        font-size: 2.4rem;
-        line-height: 3rem;
-        margin-bottom: 2rem;
+    .why-flex-container,.why-flex-mini-container {
+       flex-wrap: wrap;
     }
 }
+
 .section-why .why-flex-container .why__heading {
     font-weight: bold;
     font-size: 2rem;
